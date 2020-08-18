@@ -17,7 +17,7 @@ int int main()
 
 	lastc = NOTBLANK;
 	
-	while( getchar() != EOF )
+	while( (c = getchar()) != EOF )
 	{
 		if( c != ' ')
 		{

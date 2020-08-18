@@ -11,12 +11,13 @@
 //Header
 #include<stdio.h>
 
+//Entry-Point Function
 int main()
 {
 
 	int  c = 0; 
 
-	while( getchar() != EOF )
+	while( (c = getchar()) != EOF )
 	{
 
 		if( c == '\t')

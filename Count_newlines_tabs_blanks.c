@@ -14,7 +14,7 @@ int main()
 
 	int count = 0, c = 0; 
 
-	while( getchar() != EOF )
+	while( (c = getchar()) != EOF )
 		if( (c == '\n') || (c=='\b') || (c=='\t') )
 			++count;
 
