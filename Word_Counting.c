@@ -28,7 +28,7 @@ int main()
 		nc++;
 
 		if( c == '\n')
-			nw++;
+			nl++;
 
 		if( c == ' ' || c== '\n' || c=='\t')
 			state = OUT;
